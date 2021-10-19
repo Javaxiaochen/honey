@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>gift</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	</head>
+	<style type="text/css">
+		div {
+			width: 300px;
+			height: 300px;
+			/* transform: rotateY(40deg)rotateX(40deg); */
+			
+		}
+
+		.box {
+
+			/* background-color: red; */
+		
+			transform-style: preserve-3d;
+			position: absolute;
+			left: 600px;
+			top: 150px;
+			/* transition: all 3s; */
+			animation: move 9s linear infinite;
+		}
+
+		.box:hover {
+			/* transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); */
+
+		}
+
+		.qian {
+		
+			position: absolute;
+			transform: translateZ(150px);
+		}
+
+		.hou {
+			/* background-color: aliceblue; */
+			position: absolute;
+			transform: translateZ(-150px);
+		}
+
+		.shang {
+			/* background-color: antiquewhite; */
+			position: absolute;
+			transform: translateY(-150px) rotateX(90deg);
+
+		}
+
+		.xia {
+			/* background-color: aqua; */
+			position: absolute;
+			transform: translateY(150px) rotateX(-90deg);
+		}
+
+		.zuo {
+			/* background-color: aquamarine; */
+			position: absolute;
+			transform: translateX(-150px) rotateY(90deg);
+		}
+
+		.you {
+			/* background-color: black; */
+			position: absolute;
+			transform: translateX(150px) rotateY(-90deg);
+		}
+		div div {
+			opacity: 0.7;
+		}
+
+		@keyframes move {
+			0% {
+				transform: rotateX(0) rotateY(0) rotateZ(0);
+			}
+
+			100% {
+				transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+			}
+		}
+
+		.box:hover .qian {
+			width: 350px;
+			height: 350px;
+			transform: translateZ(300px);
+		}
+
+		.box:hover .hou {
+			width: 350px;
+			height: 350px;
+			transform: translateZ(-300px);
+		}
+
+		.box:hover .zuo {
+			width: 350px;
+			height: 350px;
+			transform: translateX(-300px) rotateY(90deg);
+		}
+
+		.box:hover .you {
+			width: 350px;
+			height: 350px;
+			transform: translateX(300px) rotateY(-90deg);
+		}
+
+		.box:hover .shang {
+			width: 350px;
+			height: 350px;
+			transform: translateY(300px) rotateX(-90deg);
+		}
+
+		.box:hover .xia {
+			width: 350px;
+			height: 350px;
+			transform: translateY(-300px) rotateX(90deg);
+		}
+		.mus{
+			opacity: 01;
+		}
+		body{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				z-index: -1;
+			
+				background-image: url(./img/f44c39b05dd330dd1dcb3044ffd0bac4.jpeg);
+
+		}
+		.mus{
+			opacity: inherit;
+		}
+
+	
+	</style>
+	<body>
+		
+				
+					
+					
+						<div class="mus">
+							<audio src="img/1.mp3" controls="controls" autoplay="autoplay" loop="loop" hidden="hidden">
+								当前浏览器不支持audio
+							</audio>
+						</div>
+						
+						
+				
+			
+						<div class="box">
+							<div class="qian"><img src="img/1.png" ></div>
+							<div class="hou"><img src="img/2.png" ></div>
+							<div class="shang"><img src="img/3.png" ></div>
+							<div class="xia"><img src="img/4.png" ></div>
+							<div class="zuo"><img src="img/5.png" ></div>
+							<div class="you"><img src="img/6.png" ></div>
+						
+								
+									<div id="" class="start">
+										<h1>生日快乐</h1>
+										<p class="lead">臭宝<small>一生一世<span>永远爱你</span></small></p>
+										<p>永远爱你的 <mark>陈光辉</mark></p>
+										<p1>不知道从什么时候开始，我们的聊天次数好像越来越少，渐渐的也没什么话题，甚至没聊几句就沉默，对自己最亲密的人才会有很多难以启齿的话,我相信在喜欢你这件事上，我希望无论我们在一起多久，都能好好对待这份感情，好不容易遇见你，我很想很想成为你最重要的那个人，很想很想和你有一个很长的未来，相信我，我很爱你</p1>
+									</div>
+								</div>
+								</div>
+							
+									
+			
+				
+			
+	</body>
+
+</html>
